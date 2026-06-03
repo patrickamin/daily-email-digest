@@ -113,11 +113,26 @@ Make sure Make.com account is set to `Africa/Cairo` so 8am triggers correctly.
 
 ## 📊 Current Status
 
-✅ **Working:** Email search, AI summarization, daily delivery  
-🔧 **To improve:**
-- Add sender name consistently to each summary (Text Aggregator formatting)
-- Show English date format in each email entry
-- Note: Gemini quota resets daily — fully functional
+✅ **Working:** 
+- Email search from past 24 hours
+- AI summarization with Gemini
+- Daily delivery at 8am Cairo time
+- Sender name + date on each entry
+- Clean bullet-point format
+
+📸 **Example output:** See `example-digest.png` below
+
+---
+
+## 📸 Example Output
+
+![Daily Digest Email](example-digest.png)
+
+The email arrives with:
+- **From:** Sender name
+- **Date:** Full timestamp
+- **Summary:** 3 concise bullet points per email
+- **Clean separation:** `---` between each email
 
 ---
 
